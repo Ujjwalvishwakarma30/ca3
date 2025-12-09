@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me - Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="logo">Ujjwal Vishwakarma</div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="container about-page">
+    <h2>About Me</h2>
+    <!-- Profile image floated left, text wraps to the right -->
+    <img src="images/Screenshot 2025-12-09 154746.png" alt="Profile" class="float-left profile-large">
+
+
+    <p>Hello! I'm <strong>Ujjwal Vishwakarma</strong>, a B.Tech CSE (AI) student with a passion for technology and
+      innovation. I believe in learning by building, constantly challenging myself with new projects and concepts.</p>
+    <p>My academic journey focuses on strengthening programming fundamentals, mastering AI/ML algorithms, and exploring
+      emerging technologies. I'm particularly drawn to projects that blend theoretical knowledge with practical
+      applications.</p>
+    <p>Outside the classroom, you'll find me diving into physics research, strategizing over chess matches, and
+      contributing to open-source initiatives. I'm driven by curiosity, collaboration, and the pursuit of excellence.
+    </p>
+
+
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year2"></span> Your Name — Student Portfolio</div>
+  </footer>
+
+
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

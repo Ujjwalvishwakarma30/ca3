@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home - Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- NAVIGATION BAR (shared) -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="logo">Ujjwal vishwakarma</div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="container">
+    <section class="hero">
+      <h1>Hi, I'm Ujjwal Vishwakarma</h1>
+      <img src="images/Screenshot 2025-12-09 154746.png" alt="Profile placeholder" class="float-right profile-small">
+      <p>I'm a B.Tech CSE (AI) student at KIET Group of Institutions, passionate about exploring artificial
+        intelligence, machine learning, and innovative technologies. I thrive on turning complex concepts into practical
+        solutions through coding and creative problem-solving.</p>
+      <p>With a strong foundation in programming and mathematics, I'm committed to continuous learning and
+        collaboration. Beyond academics, I'm enthusiastic about physics, chess, and contributing to open-source
+        projects.</p>
+      <p><strong>Explore my portfolio</strong> to discover my projects, skills, and experiences. Built with clean HTML
+        and CSS, showcasing both layout techniques.</p>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Your Name — Student Portfolio</div>
+  </footer>
+
+
+  <script>
+    // small script to set year (safe; not required by assignment but helpful)
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
